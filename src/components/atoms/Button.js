@@ -6,7 +6,7 @@ import '../../styles/atoms/Button.css';
 const Button = ({value, onClick}) => {
 
     return (
-        <div className="Button">
+        <div className="Button" onClick={onClick}>
             <p>{value}</p>
             <FontAwesomeIcon icon={faArrowRight} className="Arrow"/>
         </div>
