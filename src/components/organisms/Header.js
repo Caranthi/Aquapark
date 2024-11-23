@@ -2,6 +2,7 @@ import React from "react";
 import Dropdown from "../atoms/Dropdown";
 
 import '../../styles/organisms/Header.css';
+import Button from "../atoms/Button";
 const Header = () =>
 {
     const name = 'Baseny GżdyPuciek';
@@ -9,13 +10,18 @@ const Header = () =>
     const shopDropdown = "SKLEP";
     const contactDropdown = "KONTAKT";
 
+    const showPools = () =>
+    {
+
+    }
+
     return(
       <div className="Header">
           <p className="CompanyName">{name}</p>
           <div className="Dropdowns">
               <Dropdown value={poolsDropdown}/>
-              <Dropdown value={shopDropdown}/>
-              <Dropdown value={contactDropdown}/>
+              <Button value={shopDropdown}/>
+              <Button value={contactDropdown}/>
           </div>
       </div>
     );

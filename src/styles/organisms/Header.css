@@ -13,10 +13,12 @@
     font-size: var(--font-size-title);
     margin-left: 7%;
     color: aqua;
+    cursor: pointer;
+    font-family: Alef;
 }
 
 .Dropdowns
 {
-    margin-left: 20%;
+    margin-left: 17%;
     display: flex;
 }
