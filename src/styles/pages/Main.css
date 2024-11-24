@@ -61,6 +61,7 @@
     width: 84%;
     margin-top: 3%;
     margin-left: 10%;
+    margin-bottom: 5%;
 }
 
 .scrolling-text-container {
@@ -88,6 +89,82 @@
     to {
         transform: translateX(-100%); /* Moves text completely out of view */
     }
+}
+
+.Descriptions
+{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+}
+
+.DescriptionContainer
+{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.tmp
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.DescriptionTitle
+{
+    color: black;
+    font-size: var(--font-size-title);
+    margin-left: 8%;
+}
+
+.Description
+{
+    color: gray;
+    font-size: 22px;
+    margin-top: -7%;
+    margin-left: 8%;
+}
+
+.DescriptionContainer1
+{
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.DescriptionImage1
+{
+    background-image: url("../../../public/Lodz.jpg");
+    background-size: cover;
+    width: 160%;
+}
+
+.DescriptionImage2
+{
+    background-image: url("../../../public/Zgierz.jpg");
+    background-size: cover;
+    width: 160%;
+    margin-left: 3%;
+}
+
+.DescriptionImage3
+{
+    background-image: url("../../../public/Radomsko.jpg");
+    background-size: cover;
+    width: 160%;
+}
+
+.DescriptionTitle1
+{
+    color: black;
+    font-size: var(--font-size-title);
+}
+
+.Description1
+{
+    color: gray;
+    font-size: 22px;
+    margin-top: -7%;
 }
 
 
